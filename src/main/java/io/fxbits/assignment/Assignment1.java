@@ -21,6 +21,8 @@ public class Assignment1 {
         traveler.setVehicle(ctx.getBean(Vehicle.class));
         traveler.travel();
 
+        System.out.println("Bye!");
+
 
         ctx.close();
         System.out.println("--------------------END-------------------");
